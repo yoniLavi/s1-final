@@ -135,18 +135,42 @@ nav ul li:hover {
 
 #newsletter{
 	float: right;
-	margin-top: 85px;
+	margin-top: 80px;
 }
 
 input{
 	font-family: Economica;
 	width: 300px;
-	font-size: 20px;
+	font-size: 15px;
 }
 
 button{
 	font-family: Economica;
-	font-size: 20px;
+	font-size: 15px;
 	width: 50px;
 }
+
+
+#LN{
+	margin-top: 40px;
+}
+
+#news1{
+	margin-top: 40px;
+	-webkit-filter: grayscale(.7);
+}
+
+#n1{
+
+   position: absolute; 
+   top: 1300px; 
+   left: 0; 
+   background-color: white;
+   color: #1D2026;
+
+ }
+
+ #news2{
+ 	
+ }
 
