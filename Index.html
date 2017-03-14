@@ -1,16 +1,18 @@
 <!DOCTYPE HTML>
-  <html>    
+  <html ng-app="BoxApp">    
         <head>
-         <html lang="en">
-    <meta charset ="utf-8">
+        <meta charset ="utf-8">
 <link href="https://fonts.googleapis.com/css?family=Economica" rel="stylesheet">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-<script src="js/slider.js"></script> 
+<script src="js/slider.js"></script>
+<script type="text/javascript" src="bower_components/angular/angular.js"></script>
+    <script type="text/javascript" src="bower_components/angular-route/angular-route.js"></script>
+    
+<base href="/"> 
+
 
 <link rel="stylesheet" type="text/css" href="css/index-css.css"> 
 
-
-<head>
 <title>Seconds Out Promotions</title>
 </head> 
 
@@ -19,7 +21,7 @@
 <div class="container">
 
 <header>
-<a href="Index.html">
+<a href="/">
    <img src="images/logo1.png">
    </a>
 <div id="newsletter">
@@ -32,45 +34,15 @@
   
 <nav>
    <ul>
-        <li><a href="Index.html">Home</a></li>
-        <li><a href="templates/fighters.html">Fighters</a></li>
-        <li><a href="templates/fight nights.html">Fight Nights</a></li>
-        <li><a href="templates/media.html">Media</a></li>
-        <li><a href="templates/private.html">Private Bookings</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/fighters">Fighters</a></li>
+        <li><a href="/fightnights">Fight Nights</a></li>
+        <li><a href="/media">Media</a></li>
+        <li><a href="/private">Private Bookings</a></li>
       </ul>
 </nav>
 
-<article>
-
-<div class="slideshow-container">
-     
-    <img class="mySlides" src="images/AJ.jpg" style="width:100%">
-    
-
-    <!--
-    <img class="mySlides" src="images/bellew.jpg" style="width:100%">
-    
-
-    
-    <img class="mySlides" src="images/croll.jpg" style="width:100%">
-   
-
-    
-    <img class="mySlides" src="images/KT.jpg" style="width:100%">
-    
-
-   
-    <img class="mySlides" src="images/kong.jpg" style="width:100%">
-    
-  -->
-</article>
-<div class="news">
-<h1 id="LN">Latest News</h1>
-<div id="news1"> <img src="images/news1.jpg" style="width: 45%; height: 45%;"><h1 id="n1"><span>Bellew causes huge upset at The O2</span></h1></div>
-<div id="news2"> <img src="images/news2.jpg" style="width: 35%; height: 35%;"><h1 id="n2"><span>Only was is up for Davies</span></h1></div>
-<div id="news3"> <img src="images/news3.jpg" style="width: 35%; height: 35%;"><h1 id="n3"><span>Smith buzzing for title shot</span></h1></div>
-<div id="news4"> <img src="images/news4.jpg" style="width: 35%; height: 35%;"><h1 id="n4"><span>We catch up woth AJ before the big fight</span></h1></div>
-<div id="news5"> <img src="images/news5.jpg" style="width: 35%; height: 35%;"><h1 id="n5"><span>Seconds up sign promising young fighter</span></h1></div>
+<div ng-view></div>
 
 
 
@@ -101,6 +73,6 @@ Essex. contact@secondsout.com
 +44 1234 567890 </p>    Copyright &copy; Martyn Papprill</footer>
 
 </div>
-
+<script src="js/app.js"></script>
 </body>
 </html>
