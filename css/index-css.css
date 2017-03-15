@@ -1,3 +1,5 @@
+/*navbar*/
+
 div.container {
     width: 100%;
     border: 1px solid gray;
@@ -83,7 +85,7 @@ nav{
 
 
 
-
+/*social buttons*/
 #social{
 
 	float: left;
@@ -100,14 +102,13 @@ h1{
 }
 
 
-}
-
+/*newsletter sign up*/
 #newsletter{
 	float: right;
-	margin-top: 80px;
+	margin-top: 60px;
 }
 
-input{
+#email{
 	font-family: Economica;
 	width: 300px;
 	font-size: 15px;
@@ -119,7 +120,7 @@ button{
 	width: 50px;
 }
 
-
+/*news items on homepage*/
 #LN{
 	margin-top: 40px;
 }
@@ -139,10 +140,6 @@ button{
 
  }
 
-#news1:hover{
-
-	-webkit-filter: grayscale(.7);
-}
 
  #news2{
  	
@@ -152,3 +149,69 @@ button{
 
 	margin-bottom: 50px;
 }
+
+/*form on private booking page*/
+
+      #formcon{
+            width: 600px;
+            margin-top: 150px;
+            margin-left: 500px;
+            margin-bottom: 60px;
+         }
+         
+         
+         .submit{/*to offset submit buttton*/
+            margin-bottom: 10px;
+            margin-left: 100px;
+         }
+         .label{/*styling labels for the inputs*/
+            display: inline-block;
+            float: left;
+            clear: left;
+            text-align: left;
+            width: 100px;
+            margin-top: 5px;
+         }
+         legend{
+            font-size: 30px;
+            background-color: #fff;
+            border-radius: 5px;
+            border: 1px solid #999;
+            padding: 4px 15px;
+         }
+            
+         label.field{
+            display: block;
+            text-align: right;
+            width: 100px;
+            float: left;
+         }
+         input{/*styling for input fields*/
+            display: inline-block;
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px 8px; 
+            margin-top: 6px;
+            margin-left: 5px;  
+            font-family: Economica; 
+         }
+
+        textarea{/*styling for input fields*/
+            display: inline-block;
+            width: 200px;
+            border-radius: 5px;
+            padding: 6px 8px; 
+            margin-top: 6px; 
+            font-family: Economica; 
+
+        
+        
+         fieldset{
+            width: 450px;
+            border: 1px solid #999;
+            border-radius: 20px;
+            clear: both;
+            padding: 20px;
+            margin-bottom: 100px;
+            background-color:rgba(129, 187, 201,.2);
+         }
