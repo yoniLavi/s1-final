@@ -152,11 +152,22 @@ button{
 
 /*form on private booking page*/
 
+      .formtxt{
+
+      	text-align: center;
+      	margin-top: 80px;
+      }
+
+
+
+
+
       #formcon{
             width: 600px;
-            margin-top: 150px;
+            margin-top: 90px;
             margin-left: 500px;
             margin-bottom: 60px;
+
          }
          
          
@@ -215,3 +226,12 @@ button{
             margin-bottom: 100px;
             background-color:rgba(129, 187, 201,.2);
          }
+
+
+        /*fightnight*/ 
+
+        #xtngen{
+
+        	text-align: left;
+        	margin-top: 50px;
+        }
