@@ -20,15 +20,16 @@
 <div id="formcon">
 
                <div id="input_types">
-                  <form>
+                  <form id="pbform" action= templates/ method="post">
                      
-                     <div class="label"><h1>First Name:</h1></div> <input type="text" id="fname"  name="fname"/><br>
-                     <div class="label"><h1>Last Name: </h1></div><input id="lname" name="lname" type="text" /><br>
-                     <div class="label"><h1>Email:</h1></div><input id="email" name="email"  type="email" /><br>
-                     <div class="label"><h1>Number:</h1></div><input id="number" name="number"  type="number" /><br>
-                     <div class="label"><h1>Date of Event:</h1></div><input id="date" name="date"  type="date" /><br>
-                     <div class="label"><h1>Tell us More:</h1></div><textarea name="message" rows="10" cols="30"></textarea>
-                      <input  type="submit" class="submit" value="submit"/>
+                     <div class="label"><h1 class="frm"> First Name:</h1></div> <input type="text" id="fname"  name="fname" placeholder="required field"/><br>
+                     <div class="label"><h1 class="frm">Last Name: </h1></div><input id="lname" name="lname" type="text" placeholder="required field"/><br>
+                     <div class="label"><h1 class="frm">Email:</h1></div><input id="email" name="email"  type="email" placeholder="required field"/><br>
+                     <div class="label"><h1 class="frm">Number:</h1></div><input name="telephone" placeholder="mobile number" pattern ="[0-9]{11}" title="Mobile phone number expected beginning 07********" type="tel" /><br>
+                     <div class="label"><h1 class="frm">Post Code:</h1></div><input type="text" placeholder="post code " pattern="[0-9A-Za-z]{6}" title="Six character alpha-numeric code."/><br>
+                     <div class="label"><h1 class="frm">Date of Event:</h1></div><input id="date" name="date"  type="date" placeholder="required field"/><br>
+                     <div class="label"><h1 class="frm">Tell us More:</h1></div><textarea name="message" rows="10" cols="30"></textarea><br>
+                    <button class="btn1" type="submit" value="submit">Submit</button>
                   </form> 
                </div>
 

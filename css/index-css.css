@@ -18,7 +18,7 @@ footer{
     padding: 1em;
     color: white;
     background-color:#1D2026 ;
-    font-family: Economica;
+    font-family:'Tenor Sans', sans-serif;
     clear: left;
     text-align: center;
 }
@@ -26,7 +26,7 @@ footer{
 nav ul li a{
 	display: block;
 	text-decoration: none;
-	font-family: Economica;
+	font-family: 'Tenor Sans', sans-serif;
 	color: #fff;
 }
 
@@ -36,7 +36,7 @@ nav ul {
 }
 
 nav ul li {
-	font-size: 30px;
+	font-size: 20px;
 	border-bottom: 1px solid #444;
 	padding: 10px 5px;
 	background-color: #1D2026;
@@ -46,11 +46,6 @@ nav ul li:hover {
 	background-color: #555;
 	transition: all .3s ease;
 
-}
-
-ul li.active{
-
-	background-color: #555;
 }
 
 @media screen and (min-width: 665px){
@@ -97,27 +92,35 @@ nav{
 
 h1{
 
-	font-family: Economica;
+	font-family: 'Tenor Sans', sans-serif;
 	color: white;
 }
 
 
 /*newsletter sign up*/
-#newsletter{
-	float: right;
-	margin-top: 60px;
+
+#nl{
+
+	margin-left: 5px;
 }
 
-#email{
-	font-family: Economica;
+#newsletter{
+	float: right;
+	margin-top: 80px;
+}
+
+#email1{
+	font-family: 'Tenor Sans', sans-serif;
 	width: 300px;
 	font-size: 15px;
 }
 
 button{
-	font-family: Economica;
+	font-family: 'Tenor Sans', sans-serif;
 	font-size: 15px;
-	width: 50px;
+	width: 65px;
+	height: 40px;
+	border-radius: 10px;
 }
 
 /*news items on homepage*/
@@ -137,6 +140,7 @@ button{
    left: 0; 
    background-color: white;
    color: #1D2026;
+   font-size: 25px;
 
  }
 
@@ -155,14 +159,11 @@ button{
       .formtxt{
 
       	text-align: center;
-      	margin-top: 80px;
+      	margin-top: 150px;
       }
 
 
-
-
-
-      #formcon{
+        #formcon{
             width: 600px;
             margin-top: 90px;
             margin-left: 500px;
@@ -171,10 +172,19 @@ button{
          }
          
          
-         .submit{/*to offset submit buttton*/
-            margin-bottom: 10px;
-            margin-left: 100px;
-         }
+         .btn1{/*to offset submit buttton*/
+
+         margin-left: 180px;
+
+        }
+
+        .frm{
+
+        	font-size: 17px;
+        	margin-top: 5px;
+        }
+
+
          .label{/*styling labels for the inputs*/
             display: inline-block;
             float: left;
@@ -184,7 +194,7 @@ button{
             margin-top: 5px;
          }
          legend{
-            font-size: 30px;
+            font-size: 15px;
             background-color: #fff;
             border-radius: 5px;
             border: 1px solid #999;
@@ -204,7 +214,8 @@ button{
             padding: 6px 8px; 
             margin-top: 6px;
             margin-left: 5px;  
-            font-family: Economica; 
+            font-family: 'Tenor Sans', sans-serif;
+            font-size: 15px;
          }
 
         textarea{/*styling for input fields*/
@@ -213,7 +224,9 @@ button{
             border-radius: 5px;
             padding: 6px 8px; 
             margin-top: 6px; 
-            font-family: Economica; 
+            margin-left: 5px;
+            font-family: 'Tenor Sans', sans-serif; 
+            font-size: 20px;
 
         
         
@@ -230,8 +243,27 @@ button{
 
         /*fightnight*/ 
 
-        #xtngen{
+        .FN{
 
-        	text-align: left;
-        	margin-top: 50px;
+            margin-top: 100px;
+
         }
+
+
+        /*media*/
+
+        #vid1{
+
+        	margin-top: 100px;
+        	display: inline-block;
+
+        }
+
+        /*fighters*/
+
+       .fgtcon{
+
+       	margin-top: 200px;
+       }
+
+        #kell{}
