@@ -1,11 +1,21 @@
 $(document).ready(function() {
 
 
-	$("h2").click(function(){
- 	 $("p").slideToggle(2000);
- 	});
-
- 	//hides/shows  paragraphs when either button is clicked
- 	$("button").click(function(){
- 	 $("p").hide(2000).show(2000);
- 	});
+$("#rm1").click(function(){
+        $('#par1').slideToggle('1000');
+    });
+    $("#rm2").click(function(){
+        $('#par2').slideToggle('1000');
+    });
+    $("#rm3").click(function(){
+        $('#par3').slideToggle('1000');
+    });
+    $("#rm4").click(function(){
+        $('#par4').slideToggle('1000');
+    });
+    $("#rm5").click(function(){
+        $('#par5').slideToggle('1000');
+    });
+    $("#rm6").click(function(){
+        $('#par6').slideToggle('1000');
+    });
