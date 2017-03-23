@@ -1,6 +1,6 @@
 /*navbar*/
 
-div.container {
+div.container1 {
     width: 100%;
     border: 1px solid gray;
     background-color: #1D2026;
@@ -18,7 +18,7 @@ footer{
     padding: 1em;
     color: white;
     background-color:#1D2026 ;
-    font-family:'Tenor Sans', sans-serif;
+    font-family: 'Marcellus', serif;
     clear: left;
     text-align: center;
 }
@@ -26,7 +26,7 @@ footer{
 nav ul li a{
 	display: block;
 	text-decoration: none;
-	font-family: 'Tenor Sans', sans-serif;
+	font-family:  'Marcellus', serif;
 	color: #fff;
 }
 
@@ -92,12 +92,12 @@ nav{
 
 h1{
 
-	font-family: 'Tenor Sans', sans-serif;
+	font-family:  'Marcellus', serif;
 	color: white;
 }
 
 
-/*newsletter sign up*/
+/*ne15letter sign up*/
 
 #nl{
 
@@ -110,107 +110,23 @@ h1{
 }
 
 #email1{
-	font-family: 'Tenor Sans', sans-serif;
+	font-family:  'Marcellus', serif;
 	width: 300px;
 	font-size: 15px;
 }
 
 button{
-	font-family: 'Tenor Sans', sans-serif;
+	font-family:  'Marcellus', serif;
 	font-size: 15px;
 	width: 65px;
 	height: 40px;
 	border-radius: 10px;
 }
 
-/*news items on homepage*/
-#LN{
-	margin-top: 40px;
-}
-
-#news1{
-	margin-top: 40px;
-
-}
-
-#n1{
-
-   position: absolute; 
-   top: 1300px; 
-   left: 0; 
-   background-color: white;
-   color: #1D2026;
-   font-size: 25px;
-   margin-bottom: 40px;
- 
 
 
- }
 
-#n2{
 
-   margin-bottom: 40px;
-  position: absolute; 
-   top: 1800px; 
-   left: 0; 
-   background-color: white;
-   color: #1D2026;
-   font-size: 25px;
-   margin-bottom: 40px;
-}
-
-#n3{
-
-   position: absolute; 
-   top: 2200px; 
-   left: 0; 
-   background-color: white;
-   color: #1D2026;
-   font-size: 25px;
-   margin-bottom: 40px;
-
-}
-
-#n4{
-
-position: absolute; 
-   top: 2600px; 
-   left: 0; 
-   background-color: white;
-   color: #1D2026;
-   font-size: 25px;
-   margin-bottom: 40px;
-}
-
-#n5{
-position: absolute; 
-   top: 3200px; 
-   left: 0; 
-   background-color: white;
-   color: #1D2026;
-   font-size: 25px;
-   margin-bottom: 40px;
-
-}
-
-.news{
-
-	margin-bottom: 50px;
-}
-
-p{
-
-	font-family: 'Tenor Sans', sans-serif;
-	color: white;
-	display: none;
-}
-
-h2 {
-
-	margin-bottom: 40px;
-	font-family: 'Tenor Sans', sans-serif;
-	color: white;
-}
 
 /*form on private booking page*/
 
@@ -265,30 +181,19 @@ h2 {
             width: 100px;
             float: left;
          }
-         input{/*styling for input fields*/
+         input, textarea{/*styling for input fields*/
             display: inline-block;
             width: 200px;
             border-radius: 5px;
             padding: 6px 8px; 
             margin-top: 6px;
             margin-left: 5px;  
-            font-family: 'Tenor Sans', sans-serif;
+            font-family: 'Marcellus', serif;
             font-size: 15px;
          }
 
-        textarea{/*styling for input fields*/
-            display: inline-block;
-            width: 200px;
-            border-radius: 5px;
-            padding: 6px 8px; 
-            margin-top: 6px; 
-            margin-left: 5px;
-            font-family: 'Tenor Sans', sans-serif; 
-            font-size: 20px;
-
-        
-        
-         fieldset{
+       
+       fieldset{
             width: 450px;
             border: 1px solid #999;
             border-radius: 20px;
@@ -308,15 +213,76 @@ h2 {
         }
 
 
-        /*media*/
+        /*hp modal*/
 
-        #vid1{
-
-        	margin-top: 100px;
-        	display: inline-block;
-
-        }
+            
+ .modal-title{
+        
+        font-family: 'Cinzel Decorative', cursive;
+        color: #1D2026;
+        text-align: center;
+    }
+    
+    .modal-body{
+        
+        font-family: 'Cinzel Decorative', cursive;
+        color: #1D2026;
+        text-align: center;
+        
+    }
+    
+        
+    .close{
+        
+        color: #1D2026;
+        
+    }  
 
         /*fighters*/
 
-     
+        .con1, .con2, .con3, .con4, .con5, .con6{
+            height: 400px;
+            width: 300px;
+            background-color: #1D2026;
+            border-radius: 25px;
+        }
+        .fc1, .fc2, .fc3, .fc4, .fc5, .fc6{
+            height: 100%;
+            width: 100%;
+       
+        }
+        .fght{
+            font-family:  'Marcellus', serif;
+            color: black;
+            margin-top: 40px;
+            margin-left: 10px;
+        }
+      .flip-container1{
+            perspective: 1000px;
+        }
+        .flip-container1:hover .flipper1, .flip-container1.hover .flipper1{
+            transform: rotateY(180deg);
+        }
+        .flip-container1, .front1, .back1{
+            width: 300px;
+            height: 400px;
+        }
+        .flipper1{
+            transition: 0.6s;
+            transform-style: preserve-3d;
+            position: relative;
+        }
+        .front1, .back1{
+            backface-visibility: hidden;
+            position: absolute;
+            top: 0;
+            left: 0;
+        }
+        .front1{
+            z-index: 2;
+        }
+        .back1{
+            transform: rotateY(180deg);
+            background-color: #1D2026;
+        }
+

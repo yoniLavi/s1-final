@@ -1,4 +1,4 @@
-angular.module('BoxApp', ['ngRoute', ]);
+angular.module('BoxApp', ['ngRoute', 'ui.bootstrap']);
 
 angular.module('BoxApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);
