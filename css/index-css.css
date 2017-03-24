@@ -106,7 +106,7 @@ h1{
 
 #newsletter{
 	float: right;
-	margin-top: 80px;
+	margin-top: 50px;
 }
 
 #email1{
@@ -206,10 +206,16 @@ button{
 
         /*fightnight*/ 
 
-        .FN{
+        #upcom{
 
             margin-top: 100px;
 
+        }
+
+        .fnimg{
+
+        	margin-bottom: 20px;
+        	margin-top: 30px;
         }
 
 
@@ -286,3 +292,9 @@ button{
             background-color: #1D2026;
         }
 
+        #vid1{
+
+        	margin-top: 50px;
+        	margin-bottom: 50px;
+        	margin-left: 80px;
+        }
