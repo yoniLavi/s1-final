@@ -218,6 +218,12 @@ button{
         	margin-top: 30px;
         }
 
+        .lincrol{
+
+        	text-align: center;
+        	
+       }
+
 
         /*hp modal*/
 
@@ -292,9 +298,27 @@ button{
             background-color: #1D2026;
         }
 
+
+          /*media*/
         #vid1{
 
         	margin-top: 50px;
         	margin-bottom: 50px;
         	margin-left: 80px;
+        }
+        /*homepage news text*/
+        .nwsp{
+
+        	float: right;
+        	margin: 10px;
+        	font-family: 'Marcellus', serif;
+        	color: white;
+        	font-size: 20px;
+        	visibility: hidden;
+        }
+
+        .nwsimg{
+
+        	height: 500px;
+        	width: 500px;
         }
