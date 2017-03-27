@@ -48,6 +48,12 @@ nav ul li:hover {
 
 }
 
+a:hover{
+
+	color: white;
+	text-decoration: none;
+}
+
 @media screen and (min-width: 665px){
 	nav{
 		font-size: 0;
@@ -97,7 +103,7 @@ h1{
 }
 
 
-/*ne15letter sign up*/
+/*newsletter sign up*/
 
 #nl{
 
@@ -113,6 +119,7 @@ h1{
 	font-family:  'Marcellus', serif;
 	width: 300px;
 	font-size: 15px;
+	color: #555;
 }
 
 button{
@@ -209,6 +216,7 @@ button{
         #upcom{
 
             margin-top: 100px;
+            text-align: center;
 
         }
 
@@ -216,6 +224,8 @@ button{
 
         	margin-bottom: 20px;
         	margin-top: 30px;
+        	height: 510px;
+        	width: 510px;
         }
 
         .lincrol{
@@ -224,6 +234,27 @@ button{
         	
        }
 
+
+
+        /*media page*/
+
+
+       #med{
+
+       	text-align: center;
+       	margin-top: 100px;
+
+
+       }
+
+       .medp{
+
+       	color: white;
+       	text-align: center;
+       	font-family: 'Marcellus', serif;
+       	font-size: 20px;
+       	margin-bottom: 50px;
+       }
 
         /*hp modal*/
 
@@ -265,12 +296,14 @@ button{
         }
         .fght{
             font-family:  'Marcellus', serif;
-            color: black;
+            color: white;
             margin-top: 40px;
-            margin-left: 10px;
+            text-align: center;
         }
       .flip-container1{
             perspective: 1000px;
+            margin-top: 70px;
+            margin-bottom: 100px;
         }
         .flip-container1:hover .flipper1, .flip-container1.hover .flipper1{
             transform: rotateY(180deg);
@@ -298,14 +331,20 @@ button{
             background-color: #1D2026;
         }
 
+        .fightp{
 
-          /*media*/
-        #vid1{
-
-        	margin-top: 50px;
-        	margin-bottom: 50px;
-        	margin-left: 80px;
+        	font-family: 'Marcellus', serif;
+        	color: white;
+        	text-align: center;
+        	font-size: 30px;
+        	margin-top: 200px;
         }
+
+
+
+
+         
+        
         /*homepage news text*/
         .nwsp{
 
@@ -319,6 +358,6 @@ button{
 
         .nwsimg{
 
-        	height: 500px;
-        	width: 500px;
+        	height: 510px;
+        	width: 600px;
         }
