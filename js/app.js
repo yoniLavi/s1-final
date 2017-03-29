@@ -1,10 +1,10 @@
-angular.module('BoxApp', ['ngRoute', 'ui.bootstrap']);
+angular.module('BoxApp', ['ngRoute', 'ui.bootstrap', 'BoxControllers']);
 
 angular.module('BoxApp').config(function($locationProvider, $routeProvider) {
     $locationProvider.html5Mode(true);
     $routeProvider.when('/', {
         templateUrl: 'templates/home.html',
-        // controller: 'HomeController'
+        controller: 'HomeController'
     })
     .when('/fighters', {
         templateUrl: 'templates/fighters.html',

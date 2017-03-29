@@ -92,7 +92,7 @@ nav{
 	float: left;
 	display: block;
 
-	
+
 
 }
 
@@ -125,7 +125,7 @@ h1{
 button{
 	font-family:  'Marcellus', serif;
 	font-size: 15px;
-	width: 65px;
+	/*width: 65px;*/
 	height: 40px;
 	border-radius: 10px;
 }
@@ -151,8 +151,8 @@ button{
             margin-bottom: 60px;
 
          }
-         
-         
+
+
          .btn1{/*to offset submit buttton*/
 
          margin-left: 180px;
@@ -181,7 +181,7 @@ button{
             border: 1px solid #999;
             padding: 4px 15px;
          }
-            
+
          label.field{
             display: block;
             text-align: right;
@@ -192,14 +192,14 @@ button{
             display: inline-block;
             width: 200px;
             border-radius: 5px;
-            padding: 6px 8px; 
+            padding: 6px 8px;
             margin-top: 6px;
-            margin-left: 5px;  
+            margin-left: 5px;
             font-family: 'Marcellus', serif;
             font-size: 15px;
          }
 
-       
+
        fieldset{
             width: 450px;
             border: 1px solid #999;
@@ -211,7 +211,7 @@ button{
          }
 
 
-        /*fightnight*/ 
+        /*fightnight*/
 
         #upcom{
 
@@ -231,7 +231,7 @@ button{
         .lincrol{
 
         	text-align: center;
-        	
+
        }
 
 
@@ -258,28 +258,28 @@ button{
 
         /*hp modal*/
 
-            
+
  .modal-title{
-        
+
         font-family: 'Cinzel Decorative', cursive;
         color: #1D2026;
         text-align: center;
     }
-    
+
     .modal-body{
-        
+
         font-family: 'Cinzel Decorative', cursive;
         color: #1D2026;
         text-align: center;
-        
+
     }
-    
-        
+
+
     .close{
-        
+
         color: #1D2026;
-        
-    }  
+
+    }
 
         /*fighters*/
 
@@ -292,7 +292,7 @@ button{
         .fc1, .fc2, .fc3, .fc4, .fc5, .fc6{
             height: 100%;
             width: 100%;
-       
+
         }
         .fght{
             font-family:  'Marcellus', serif;
@@ -343,8 +343,8 @@ button{
 
 
 
-         
-        
+
+
         /*homepage news text*/
         .nwsp{
 
